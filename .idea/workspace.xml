@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="adc0d432-d2a1-4f5d-8afa-4294e7363ee7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1p1BlNlWnX2RXS0JRWohv7TmkBd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/laab1_2/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adc0d432-d2a1-4f5d-8afa-4294e7363ee7" name="Default Changelist" comment="" />
+      <created>1614340865765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614340865765</updated>
+      <workItem from="1614340866895" duration="3081000" />
+      <workItem from="1614378108048" duration="104000" />
+      <workItem from="1614430044532" duration="13171000" />
+      <workItem from="1614454248858" duration="8338000" />
+      <workItem from="1614521234031" duration="18577000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1239" y="253" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614454336371">
+      <screen x="-1920" y="-93" width="1920" height="1080" />
+    </state>
+    <state x="-1239" y="253" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-93.1920.1080/0.0.1440.900@-1920.-93.1920.1080" timestamp="1614454336371" />
+    <state x="-1295" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1614548396757">
+      <screen x="-1920" y="-93" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="148" width="670" height="676" key="search.everywhere.popup/-1920.-93.1920.1080/0.0.1440.900@-1920.-93.1920.1080" timestamp="1614548396757" />
+  </component>
+</project>
