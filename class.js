@@ -21,7 +21,7 @@ class TimeVK {
         }
     }
     toString() {
-        return `${this.hour}:${this.minute}:${this.second}`  + (this.hour > 12 ? 'PM' : 'AM')
+        return `${this.hour}:${this.minute}:${this.second}`  + (this.hour > 12 ? ' PM' : ' AM')
     }
     add (time) {
         let sec = 0
@@ -108,15 +108,43 @@ class TimeVK {
     }
 }
 
+console.log('Створення об’єкту різними способами')
+
 let a = new TimeVK();
-console.log(a) // 0, 0, 0
+console.log(a.toString()) // 0:0:0 AM
 
 let b = new TimeVK(20, 13, 14);
-console.log(b) // 20, 13, 14
+console.log(b.toString()) // 20:13:14 PM
 
 let c = new TimeVK(new Date());
-console.log(c) // 1, 32, 59 ( current date )
+console.log(c.toString()) // 1:32:59 PM( current date + PM or AM )
 
 // let d = new TimeVK(25, 100, 1);
 // console.log(d) //  Error: Do not correct hour - 25 at new TimeVK
+
+console.log('')
+
+console.log('Робота методів додавання та віднімання від поточного об’єкту')
+
+let sum = new TimeVK(10, 5,20)
+let sum2 = new TimeVK(5, 10, 15)
+console.log(sum.add(sum2).toString()) // 15:15:35 PM
+
+let minus = new TimeVK(10, 5,20)
+let minus2 = new TimeVK(5, 10, 15)
+console.log(minus.minus(minus2).toString()) // 4:55:5 AM
+
+console.log('')
+
+console.log('Робота методів додавання та віднімання двох об’єктів')
+
+let e = new TimeVK(5, 10, 20);
+let f = new TimeVK(10, 20, 40);
+let g = TimeVK.classAdd(e, f)
+console.log(g.toString());  // 15:30:5 PM
+
+let ff = new TimeVK(10, 20, 40);
+let ee = new TimeVK(5, 10, 20);
+let gg = TimeVK.classMinus(ff, ee)
+console.log(gg.toString());  // 5:10:20 AM
 
